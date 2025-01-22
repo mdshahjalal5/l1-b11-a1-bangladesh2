@@ -1,0 +1,24 @@
+/*w: banner section styles*/
+.banner {
+  padding: 4.16vw 3.8vw;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.banner h2 {
+  font-size: 56px;
+  font-weight: 7000;
+}
+
+/*w: pillar section  */
+
+.pillar-card {
+  border: 1px solid gold;
+  padding: 2.3vw;
+  border-radius: 18px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.pillar-card-container {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5vw;
+  justify-items: center;
+}

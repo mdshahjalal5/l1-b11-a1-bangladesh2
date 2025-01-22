@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header,
+main {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width: 100%;
+}
+.bg-primary {
+  background: rgba(0, 106, 80, 0.4);
+}
+.df {
+  display: flex;
+}
+.dg {
+  display: grid;
+}
+.aic {
+  align-items: center;
+}
+.jcc {
+  justify-content: center;
+}
+.jic {
+  justify-items: center;
+}
+.tac {
+  text-align: center;
+}
+.btn-primary {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+}
+
+.mt {
+  margin-top: 100px;
+}
+.orange {
+  color: orange;
+}
+.skyblue {
+  color: skyblue;
+}
+.pink {
+  color: pink;
+}

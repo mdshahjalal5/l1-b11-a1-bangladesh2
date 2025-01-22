@@ -1,0 +1,23 @@
+/*w:medium device */
+@media (max-width: 996px) {
+  /*w: pillar section*/
+  .pillar-card-container {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1.5vw;
+  }
+}
+
+/* w: small device */
+@media (max-width: 576px) {
+  /*w:banner section */
+  .banner {
+    flex-direction: column-reverse;
+    padding: 1.5vw;
+  }
+  /*w: pillar section*/
+  .pillar-card-container {
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 90%;
+    padding: 1.5vw;
+  }
+}
