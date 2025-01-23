@@ -11,9 +11,16 @@ main {
 }
 img {
   max-width: 100%;
+  border-radius: 25px;
 }
 .bg-primary {
   background: rgba(0, 106, 80, 0.4);
+}
+.bg-secondary {
+  background-color: rgba(84, 144, 245, 0.2);
+}
+.bg-3 {
+  background-color: #f7ebcf;
 }
 .df {
   display: flex;
@@ -26,6 +33,9 @@ img {
 }
 .jcc {
   justify-content: center;
+}
+.fdrr {
+  flex-direction: row-reverse;
 }
 .jic {
   justify-items: center;
@@ -52,4 +62,13 @@ img {
 }
 .pink {
   color: pink;
+}
+.bg-green {
+  background-color: green;
+}
+.bg-skyblue {
+  background: skyblue;
+}
+.bg-orange {
+  background: orange;
 }

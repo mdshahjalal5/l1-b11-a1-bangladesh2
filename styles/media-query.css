@@ -5,6 +5,26 @@
     grid-template-columns: repeat(2, 1fr);
     padding: 1.5vw;
   }
+  .vision-card-container {
+    grid-template-columns: repeat(2, 1fr);
+    /* max-width: 90%; */
+    padding: 1.5vw;
+    gap: 5vw;
+    /* justify-items: center; */
+  }
+  /*w: news section  */
+  .news-card {
+    max-width: 80%;
+    flex-direction: column-reverse;
+  }
+
+  .news-card img {
+    max-width: 80%;
+  }
+
+  .donate-item button {
+    padding: 30px 15px;
+  }
 }
 
 /* w: small device */
@@ -19,5 +39,20 @@
     grid-template-columns: repeat(1, 1fr);
     max-width: 90%;
     padding: 1.5vw;
+    gap: 5vw;
+  }
+
+  /*w: vision section */
+  .vision-card-container {
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 90%;
+    padding: 1.5vw;
+    gap: 5vw;
+  }
+
+  /*w: donate secton */
+  .donate-items {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
   }
 }

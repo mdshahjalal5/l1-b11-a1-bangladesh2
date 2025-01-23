@@ -11,7 +11,9 @@
 
 /*w: pillar section  */
 
-.pillar-card {
+.pillar-card,
+.vision-card,
+.news-card {
   border: 1px solid gold;
   padding: 2.3vw;
   border-radius: 18px;
@@ -21,4 +23,64 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 1.5vw;
   justify-items: center;
+}
+
+/*w: vision section */
+
+.vision-card-container {
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  gap: 1.5vw;
+  justify-items: center;
+}
+
+.vision-infos {
+  border-radius: 19px;
+  margin-top: 20px;
+  background: rgba(14, 14, 14, 0.05);
+  padding: 2.2vw;
+}
+
+/*w: news section */
+.news-card-container {
+  gap: 30px;
+}
+.news-card {
+  background: rgba(14, 14, 14, 0.02);
+  padding: 3vw;
+  gap: 3.5vw;
+  border: none;
+}
+
+/*w: donate section */
+
+.donate-items {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3vw;
+}
+.donate-item button {
+  padding: 40px 40px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 900;
+  font-size: 25px;
+  border: 1px solid skyblue;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.amount,
+.email {
+  width: 80%;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid purple;
+}
+
+/*w: news-letter section */
+
+.news-letter {
+  padding: 5vw 9vw;
+  border-radius: 10px;
 }
