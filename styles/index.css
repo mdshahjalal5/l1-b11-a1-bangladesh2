@@ -37,7 +37,18 @@ nav button {
   gap: 1.5vw;
   justify-items: center;
 }
+.hover:hover {
+  border: 2px solid gold;
+  transition: transform 0.3s;
 
+  transform: scale(1.05);
+}
+
+.hover-btn:hover {
+  transition: transform 0.3s;
+
+  transform: scale(1.2);
+}
 /*w: vision section */
 
 .vision-card-container {
