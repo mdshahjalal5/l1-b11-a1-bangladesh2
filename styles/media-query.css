@@ -1,5 +1,6 @@
 /*w:medium device */
 @media (max-width: 996px) {
+  /* } */
   /*w: pillar section*/
   .banner h2 {
     font-size: 3.62vw;
@@ -69,9 +70,16 @@
   td {
     font-size: 16px;
   }
+  nav {
+    padding: 1vw;
+  }
 }
 
 @media (max-width: 360px) {
+  /*w: nav section */
+  nav {
+    padding: 1vw;
+  }
   th,
   td {
     padding: 10px;

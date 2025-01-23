@@ -1,4 +1,17 @@
+/*w: nav section */
+nav {
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 1vw; */
+}
+nav button {
+  height: 30px;
+  border: 1px solid green;
+  border-radius: 5px;
+  padding: 3px 15px;
+}
 /*w: banner section styles*/
+
 .banner {
   padding: 4.16vw 3.8vw;
   border-radius: 10px;
