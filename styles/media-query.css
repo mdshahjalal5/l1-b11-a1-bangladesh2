@@ -1,6 +1,9 @@
 /*w:medium device */
 @media (max-width: 996px) {
   /*w: pillar section*/
+  .banner h2 {
+    font-size: 3.62vw;
+  }
   .pillar-card-container {
     grid-template-columns: repeat(2, 1fr);
     padding: 1.5vw;
@@ -34,6 +37,9 @@
     flex-direction: column-reverse;
     padding: 1.5vw;
   }
+  .banner h2 {
+    font-size: 6.62vw;
+  }
   /*w: pillar section*/
   .pillar-card-container {
     grid-template-columns: repeat(1, 1fr);
@@ -54,5 +60,22 @@
   .donate-items {
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
+  }
+  .subscribe-btn {
+    margin-top: 20px;
+  }
+  /*w: table section */
+  th,
+  td {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 360px) {
+  th,
+  td {
+    padding: 10px;
+    font-weight: 500;
+    font-size: 13px;
   }
 }

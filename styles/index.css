@@ -5,7 +5,7 @@
   margin-top: 20px;
 }
 .banner h2 {
-  font-size: 56px;
+  font-size: 2.92vw;
   font-weight: 7000;
 }
 
@@ -54,6 +54,9 @@
 
 /*w: donate section */
 
+.donate-section {
+  padding: 3vw;
+}
 .donate-items {
   grid-template-columns: repeat(4, 1fr);
   gap: 3vw;
@@ -83,4 +86,33 @@
 .news-letter {
   padding: 5vw 9vw;
   border-radius: 10px;
+}
+
+/*w: table section */
+
+.table-section {
+  padding: 3vw;
+}
+table {
+  border: 1px solid maroon;
+  border-radius: 10px;
+}
+th {
+  border: 1px solid green;
+  background: skyblue;
+}
+td,
+th {
+  border: 1px solid black;
+  margin-top: -3px;
+  padding: 30px;
+  font-weight: 700;
+  font-size: 20px;
+  /* color: blueviolet; */
+}
+select {
+  background: skyblue;
+  padding: 9px;
+  border: 2px solid gold;
+  border-radius: 3px;
 }

@@ -63,6 +63,9 @@ img {
 .pink {
   color: pink;
 }
+.light-gray {
+  color: #333; /* Light gray color */
+}
 .bg-green {
   background-color: green;
 }
@@ -71,4 +74,33 @@ img {
 }
 .bg-orange {
   background: orange;
+}
+
+.subscribe-btn {
+  padding: 18px 40px;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+/*w: gradient utility */
+
+.sky-white {
+  background: linear-gradient(35deg, #a8dadc, #f1faee);
+}
+.orange-yellow {
+  background: linear-gradient(935deg, #ffd6a5, #ffeedd);
+}
+
+.peach-pink {
+  background: linear-gradient(335deg, #ffc4d6, #ffebee);
+}
+.green-blue {
+  background: linear-gradient(to bottom, #d4f1f4, #bde4e7);
+}
+
+.bg-white {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.shade {
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
 }
