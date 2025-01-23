@@ -9,3 +9,6 @@
 - **Created On:** 23/01/2025 04:07 পূর্বাহ্ণ বৃহঃ GMT+6
 - **Location:** Sharifpur, Gazipur, Dhaka
 
+github url: https://github.com/mdshahjalal5/l1-b11-a1-bangladesh2
+live site link: https://mdshahjalal5.github.io/l1-b11-a1-bangladesh2/
+
